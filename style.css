@@ -284,6 +284,7 @@ h1 {
 
   h1 {
     max-width: 8.5ch;
+    margin-top: 34px;
   }
 
   .hero__subhead {
@@ -296,7 +297,7 @@ h1 {
 
   .device-stage {
     min-height: clamp(500px, 126vw, 680px);
-    margin-top: 18px;
+    margin: 8px 0 34px;
   }
 
   .iphone--front {
@@ -329,6 +330,10 @@ h1 {
     font-size: clamp(3.7rem, 18vw, 4.8rem);
   }
 
+  .hero {
+    gap: 20px;
+  }
+
   h1 {
     font-size: clamp(2.35rem, 11.4vw, 3.2rem);
     line-height: 0.98;
@@ -337,7 +342,8 @@ h1 {
   .device-stage {
     width: 100%;
     min-height: 492px;
-    margin-top: 72px;
+    margin-top: 12px;
+    margin-bottom: 48px;
   }
 
   .site-footer {
