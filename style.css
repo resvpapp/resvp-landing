@@ -297,7 +297,7 @@ h1 {
 
   .device-stage {
     min-height: clamp(500px, 126vw, 680px);
-    margin: -56px 0 112px;
+    margin: 8px 0 96px;
   }
 
   .iphone--front {
@@ -331,7 +331,7 @@ h1 {
   }
 
   .hero__logo {
-    margin-bottom: -16px;
+    margin-bottom: 6px;
   }
 
   .hero {
@@ -347,7 +347,7 @@ h1 {
   .device-stage {
     width: 100%;
     min-height: 492px;
-    margin-top: 8px;
+    margin-top: 76px;
     margin-bottom: 128px;
   }
 
