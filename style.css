@@ -402,6 +402,11 @@ h1 {
 }
 
 @media (max-width: 860px) {
+  html,
+  body {
+    overflow-x: clip;
+  }
+
   .page-shell {
     min-height: auto;
     padding-top: 34px;
@@ -436,7 +441,7 @@ h1 {
   .device-stage {
     min-height: clamp(500px, 126vw, 680px);
     margin: 8px 0 96px;
-    overflow-x: clip;
+    overflow: visible;
   }
 
   .iphone--front {
