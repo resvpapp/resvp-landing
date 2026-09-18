@@ -88,11 +88,10 @@ a:focus-visible {
 .hero__logo {
   width: clamp(102px, 13.75vw, 178px);
   height: auto;
-  margin-bottom: clamp(12px, 1.8vw, 20px);
+  margin-bottom: 0;
   filter: drop-shadow(0 18px 36px rgba(0, 0, 0, 0.24));
 }
 
-.hero__wordmark,
 h1 {
   margin: 0;
   font-family: var(--font-display);
@@ -100,18 +99,9 @@ h1 {
   letter-spacing: 0;
 }
 
-.hero__wordmark {
-  font-family: "Big Shoulders Display", "Arial Narrow", "Outfit", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  letter-spacing: 0;
-  font-size: clamp(4rem, 9.7vw, 7.9rem);
-  line-height: 0.82;
-}
-
 h1 {
   max-width: 13.5ch;
-  margin-top: clamp(22px, 3vw, 34px);
+  margin-top: clamp(22px, 2.5vw, 30px);
   font-size: clamp(2.8rem, 5.45vw, 5.1rem);
   line-height: 0.94;
 }
@@ -229,6 +219,17 @@ h1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.iphone__render {
+  position: absolute;
+  top: -2.05%;
+  left: -4.2%;
+  width: 120.95%;
+  max-width: none;
+  height: auto;
+  pointer-events: none;
+  user-select: none;
 }
 
 .iphone--front {
@@ -435,6 +436,7 @@ h1 {
   .device-stage {
     min-height: clamp(500px, 126vw, 680px);
     margin: 8px 0 96px;
+    overflow-x: clip;
   }
 
   .iphone--front {
@@ -463,12 +465,8 @@ h1 {
     padding-left: 16px;
   }
 
-  .hero__wordmark {
-    font-size: clamp(3.7rem, 18vw, 4.8rem);
-  }
-
   .hero__logo {
-    margin-bottom: 6px;
+    margin-bottom: 0;
   }
 
   .hero {
@@ -476,7 +474,7 @@ h1 {
   }
 
   h1 {
-    margin-top: 54px;
+    margin-top: 28px;
     font-size: clamp(2.35rem, 11.4vw, 3.2rem);
     line-height: 0.98;
   }
